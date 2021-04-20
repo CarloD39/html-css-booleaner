@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+
+main{
+    padding: 5px;
+}
+
 
 .imm-iniziale{
     position: relative;
@@ -19,6 +23,7 @@
     left: 0;
     bottom: 0;
 }
+/* fine header */
 
 .title-article{
     margin-top: 20px;
@@ -29,19 +34,95 @@ h1{
     font-weight: bolder;
 }
 
-.tex-{
-    font-size: 18px;
+.tex{
+    font-size: 20px;
 }
 
-.tex-gray{
+.{
     color: gray;
+    font: 25px;
 }
 
-.tex-blue{
+.blue-tex{
     color: lightskyblue;
 }
 
-.tex-data{
-    font-size: 12px;;
+.data{
+    font-size: 14px;
 }
+
+.row-pictures{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.image{
+    display: inline-block;
+}
+
+
+.description-pictures{
+    font-size: 14px;
+}
+
+.Lorem{
+    margin-top: 20px;
+}
+
+.schedule{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+}
+
+/* inizio table */
+.box .first-line{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.token{
+    float: left;
+    width: calc(100% / 3);
+    background: rgb(19, 143, 219);
+    font-weight: bold;
+    color: white;
+}
+
+.st-line{
+    width: 100%;
+    height: 50px; 
+}
+
+.lorem{
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+    background: rgb(129, 197, 240);
+    line-height: 100%;
+    color: black;
+}
+
+.lorem-w{
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+    background: rgb(255, 255, 255);
+    line-height: 100%;
+}
+
+.final{
+    margin-top: 50px;
+
+}
+
+
+
+
+
+
+
+
+
 
